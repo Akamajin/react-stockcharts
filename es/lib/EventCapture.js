@@ -130,8 +130,7 @@ var EventCapture = function (_Component) {
 			var yZoom = Math.abs(e.deltaY) > Math.abs(e.deltaX) && Math.abs(e.deltaY) > 0;
 			// const xPan = Math.abs(e.deltaY) < Math.abs(e.deltaX) && Math.abs(e.deltaX) > 0;
 			var mouseXY = mousePosition(e);
-			e.preventDefault();
-
+			
 			if (zoom && this.focus && yZoom && !panInProgress) {
 				var zoomDir = e.deltaY > 0 ? 1 : -1;
 
