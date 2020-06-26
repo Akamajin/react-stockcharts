@@ -1,34 +1,47 @@
 {
-  "_from": "react-stockcharts@^0.7.8",
+  "_args": [
+    [
+      "react-stockcharts@0.7.8",
+      "D:\\Projects\\stock_charts"
+    ]
+  ],
+  "_from": "react-stockcharts@0.7.8",
   "_id": "react-stockcharts@0.7.8",
   "_inBundle": false,
   "_integrity": "sha512-swtnTFrp8+82dDGhuI3gg2qvO7irU/dz210k3KtmRiZGMwrmdWBsfYGRrctKRK2OSm+C7G4WgbhKo0pdfFlwyQ==",
   "_location": "/react-stockcharts",
-  "_phantomChildren": {},
+  "_phantomChildren": {
+    "d3-array": "1.2.4",
+    "d3-collection": "1.0.7",
+    "d3-color": "1.4.0",
+    "d3-format": "1.4.3",
+    "d3-interpolate": "1.4.0",
+    "d3-time": "1.1.0",
+    "d3-time-format": "2.2.3",
+    "ms": "2.1.2"
+  },
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "react-stockcharts@^0.7.8",
+    "raw": "react-stockcharts@0.7.8",
     "name": "react-stockcharts",
     "escapedName": "react-stockcharts",
-    "rawSpec": "^0.7.8",
+    "rawSpec": "0.7.8",
     "saveSpec": null,
-    "fetchSpec": "^0.7.8"
+    "fetchSpec": "0.7.8"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/react-stockcharts/-/react-stockcharts-0.7.8.tgz",
-  "_shasum": "d127a113479835be1a0ef7c37e5b5808740b9803",
-  "_spec": "react-stockcharts@^0.7.8",
-  "_where": "D:\\Projects\\StockChart\\Examples\\horizontalLine",
+  "_spec": "0.7.8",
+  "_where": "D:\\Projects\\stock_charts",
   "author": {
     "name": "Ragu Ramaswamy"
   },
   "bugs": {
     "url": "https://github.com/rrag/react-stockcharts/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "d3-array": "^1.2.1",
     "d3-collection": "^1.0.4",
@@ -46,7 +59,6 @@
     "prop-types": "^15.6.0",
     "save-svg-as-png": "^1.4.5"
   },
-  "deprecated": false,
   "description": "Highly customizable stock charts with ReactJS and d3",
   "esnext": "es/index.js",
   "homepage": "http://rrag.github.io/react-stockcharts/",
