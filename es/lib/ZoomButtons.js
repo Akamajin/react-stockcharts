@@ -81,12 +81,14 @@ var ZoomButtons = function (_Component) {
 		value: function handleZoomOut() {
 			if (this.interval) return;
 			this.zoom(1);
+			this.props.onZoom(1)
 		}
 	}, {
 		key: "handleZoomIn",
 		value: function handleZoomIn() {
 			if (this.interval) return;
 			this.zoom(-1);
+			this.props.onZoom(-1)
 		}
 	}, {
 		key: "render",
@@ -249,7 +251,8 @@ ZoomButtons.propTypes = {
 	textDy: PropTypes.string.isRequired,
 	textFill: PropTypes.string.isRequired,
 	textStrokeWidth: PropTypes.number.isRequired,
-	onReset: PropTypes.func
+	onReset: PropTypes.func,
+	onZoom: PropTypes.func
 };
 
 ZoomButtons.defaultProps = {
@@ -267,7 +270,8 @@ ZoomButtons.defaultProps = {
 	textFill: "#000000",
 	textStrokeWidth: 2,
 	zoomMultiplier: 1.5,
-	onReset: noop
+	onReset: noop,
+	onZoom: noop
 };
 
 ZoomButtons.contextTypes = {
