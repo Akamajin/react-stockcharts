@@ -5,10 +5,10 @@
       "D:\\Projects\\stock_charts"
     ]
   ],
-  "_from": "react-stockcharts@0.7.8",
+  "_from": "git+https://github.com/Akamajin/react-stockcharts.git",
   "_id": "react-stockcharts@0.7.8",
   "_inBundle": false,
-  "_integrity": "sha512-swtnTFrp8+82dDGhuI3gg2qvO7irU/dz210k3KtmRiZGMwrmdWBsfYGRrctKRK2OSm+C7G4WgbhKo0pdfFlwyQ==",
+  "_integrity": "",
   "_location": "/react-stockcharts",
   "_phantomChildren": {
     "d3-array": "1.2.4",
@@ -21,27 +21,27 @@
     "ms": "2.1.2"
   },
   "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "react-stockcharts@0.7.8",
-    "name": "react-stockcharts",
-    "escapedName": "react-stockcharts",
-    "rawSpec": "0.7.8",
-    "saveSpec": null,
-    "fetchSpec": "0.7.8"
+    "type": "git",
+    "raw": "https://github.com/Akamajin/react-stockcharts.git",
+    "rawSpec": "https://github.com/Akamajin/react-stockcharts.git",
+    "saveSpec": "git+https://github.com/Akamajin/react-stockcharts.git",
+    "fetchSpec": "https://github.com/Akamajin/react-stockcharts.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-stockcharts/-/react-stockcharts-0.7.8.tgz",
-  "_spec": "0.7.8",
-  "_where": "D:\\Projects\\stock_charts",
+  "_resolved": "git+https://github.com/Akamajin/react-stockcharts.git#434967371da280c8a42e61702bc6ae69b3975320",
+  "_spec": "https://github.com/Akamajin/react-stockcharts.git",
+  "_where": "D:\\Projects\\StockChart\\react_stock_charts",
   "author": {
     "name": "Ragu Ramaswamy"
   },
   "bugs": {
     "url": "https://github.com/rrag/react-stockcharts/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "d3-array": "^1.2.1",
     "d3-collection": "^1.0.4",
@@ -59,6 +59,7 @@
     "prop-types": "^15.6.0",
     "save-svg-as-png": "^1.4.5"
   },
+  "deprecated": false,
   "description": "Highly customizable stock charts with ReactJS and d3",
   "esnext": "es/index.js",
   "homepage": "http://rrag.github.io/react-stockcharts/",
